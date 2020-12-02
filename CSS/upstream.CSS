@@ -1,8 +1,32 @@
-#Upstream iframe{
-width: 100% ; 
-height:500px;
+#Upstream .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image: url(../IMG/background2.jpg);
+    background-size:cover;
+    padding-bottom: 20px;
 }
-#Upstream h3{
-    text-align:center;
-    font-weight: 900;
+#Upstream .imgend{
+    align-self: flex-end;
+}
+#Upstream  .block{
+    margin: 10px 0px 0px 0px;
+}
+#Upstream  .block p{
+    margin-bottom: 0px;
+}
+#Upstream  .img1{
+    width: 350px;
+    height:250px;
+    margin: 0px 10px 0px 10px;
+}
+#Upstream  .img2{
+    width: 350px;
+    height:250px;
+    margin: 0px 10px 0px 10px;
+}
+#Upstream iframe{
+    width: 500px; 
+    height:300px;
 }
