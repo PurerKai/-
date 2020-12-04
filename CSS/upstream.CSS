@@ -1,32 +1,83 @@
-#Upstream .content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-image: url(../IMG/background2.jpg);
-    background-size:cover;
-    padding-bottom: 20px;
+:root {
+  --block-width: 350px;
+  --block-height: 300px;
 }
-#Upstream .imgend{
-    align-self: flex-end;
+/* +++++++++++++++++++++++++ 
+    上游標籤頁 開始
++++++++++++++++++++++++++ */
+#Upstream .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-image: url(../IMG/background2.jpg);
+  background-size: cover;
+  padding: 10px 0 20px 0;
 }
-#Upstream  .block{
-    margin: 10px 0px 0px 0px;
+#Upstream .block {
+  width: var(--block-width);
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  perspective: 700;
+  -webkit-perspective: 700;
+  -moz-perspective: 700;
 }
-#Upstream  .block p{
-    margin-bottom: 0px;
+#Upstream .product {
+  position: relative;
+  width: var(--block-width);
+  height: var(--block-height);
+  text-align: center;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  backface-visibility: hidden;
 }
-#Upstream  .img1{
-    width: 350px;
-    height:250px;
-    margin: 0px 10px 0px 10px;
+#Upstream .product-front,
+#Upstream .product-back {
+  background-color: #0871b0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 250px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-#Upstream  .img2{
-    width: 350px;
-    height:250px;
-    margin: 0px 10px 0px 10px;
+#Upstream .product-front .img1 {
+  width: 350px;
+  height: 250px;
+  margin: 0px;
+  padding: 0px;
 }
-#Upstream iframe{
-    width: 500px; 
-    height:300px;
+#Upstream .product-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
 }
+#Upstream .flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+}
+#Upstream iframe {
+  width: 500px;
+  height: 300px;
+}
+/* +++++++++++++++++++++++++ 
+    上游標籤頁 結束
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    中游標籤頁 開始
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    中游標籤頁 結束
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    下游標籤頁 開始
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    下游標籤頁 結束
++++++++++++++++++++++++++ */
