@@ -38,9 +38,9 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="true" aria-expanded="false">產業價值</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="Industry.html?q=a">上游</a>
-                                <a class="dropdown-item" href="Industry.html">中游</a>
-                                <a class="dropdown-item" href="Industry.html">下游</a>
+                                <a id="Up" class="dropdown-item" href="Industry.html?q=Upstream">上游</a>
+                                <a id="Mid" class="dropdown-item" href="Industry.html?q=Midstream">中游</a>
+                                <a id="Down" class="dropdown-item" href="Industry.html?q=Downstream">下游</a>
                             </div>
                         </li>
                     </ul>
@@ -94,17 +94,17 @@
                             <nav id="tabNav" class="navbar page-nav nav-look ">
                                 <ul id=" myTab" class="nav tab-menu">
                                     <li>
-                                        <a href="#Upstream" data-toggle="tab" class="nav-item nav-link active">
+                                        <a id="Up" href="#Upstream" data-toggle="tab" class="nav-item nav-link active">
                                             上游<p>Upstream</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#Midstream" data-toggle="tab" class="nav-item nav-link">
+                                        <a id="Mid" href="#Midstream" data-toggle="tab" class="nav-item nav-link">
                                             中游<p>Midstream</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#Downstream" data-toggle="tab" class="nav-item nav-link">
+                                        <a id="Down" href="#Downstream" data-toggle="tab" class="nav-item nav-link">
                                             下游<p>Downstream</p>
                                         </a>
                                     </li>
@@ -478,7 +478,7 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
-                    <div id="Midstream" class="tab-pane fade active show">
+                    <div id="Midstream" class="tab-pane fade">
                         <div>
                             中游介紹
                         </div>
