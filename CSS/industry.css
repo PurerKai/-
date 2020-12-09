@@ -1,0 +1,27 @@
+#myTab .active {
+  color: red;
+}
+/* +++++++++++++++++++++++++ 
+    TODO:網路電商 開始
++++++++++++++++++++++++++ */
+#Internet-commerce .zxc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightgray;
+  margin: 0px 0px 15px 0px;
+}
+#Internet-commerce img {
+  width: 300px;
+  height: 250px;
+  margin: 0px 15px 0px 0px;
+}
+/* +++++++++++++++++++++++++ 
+    網路電商 結束
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    TODO:線上商店 開始
++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++ 
+    線上商店 結束
++++++++++++++++++++++++++ */

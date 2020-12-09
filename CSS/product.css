@@ -1,9 +1,9 @@
 :root {
-  --block-width: 350px;
-  --block-height: 300px;
+  --block-width: 300px;
+  --block-height: 250px;
 }
 /* +++++++++++++++++++++++++ 
-    上游標籤頁 開始
+    TODO:上游內容 開始
 +++++++++++++++++++++++++ */
 #Upstream .content {
   display: flex;
@@ -16,72 +16,73 @@
 }
 #Upstream .block {
   width: var(--block-width);
-  margin: 10px 0px 0px 0px;
+  margin: 10px 20px 0px 20px;
   cursor: pointer;
   perspective: 700;
   -webkit-perspective: 700;
   -moz-perspective: 700;
 }
+#Upstream .block a {
+  width: 100%;
+  text-align: center;
+}
 #Upstream .product {
   position: relative;
   width: var(--block-width);
   height: var(--block-height);
-  text-align: center;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease;
-  backface-visibility: hidden;
 }
 #Upstream .product-front,
 #Upstream .product-back {
-  background-color:sienna;
+  background-color: sienna;
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 250px;
-  margin: auto;
+  width: var(--block-width);
+  height: var(--block-height);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 #Upstream .product-front .img1 {
-  width: 300px;
-  height: 250px;
-  margin: 0px;
+  width: var(--block-width);
+  height: var(--block-height);
+  margin: 0;
   padding: 0px;
 }
 #Upstream .product-back {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  font-style: inherit
+  font-style: inherit;
 }
 #Upstream .flip {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  transition: all 0.6s ease;
-  -webkit-transition: all 0.6s ease;
 }
 #Upstream iframe {
   width: 500px;
   height: 300px;
 }
-
 /* +++++++++++++++++++++++++ 
-    上游標籤頁 結束
+    上游內容 結束
 +++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++ 
-    中游標籤頁 開始
+    中游內容 開始
 +++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++ 
-    中游標籤頁 結束
+    中游內容 結束
 +++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++ 
-    下游標籤頁 開始
+    下游內容 開始
 +++++++++++++++++++++++++ */
+#Downstream img {
+  width: 1000px;
+  height: 250px;
+}
 /* +++++++++++++++++++++++++ 
-    下游標籤頁 結束
+    下游內容 結束
 +++++++++++++++++++++++++ */
