@@ -14,6 +14,16 @@
   background-size: cover;
   padding: 10px 0 20px 0;
 }
+#Upstream .block-2{
+  width: var(--block-width);
+  margin: 10px 20px 0px 20px;
+  color: black;
+  font-size: 30px;
+  
+}
+#Upstream .block-2 a{
+color:navy;
+}
 #Upstream .block {
   width: var(--block-width);
   margin: 10px 20px 0px 20px;
