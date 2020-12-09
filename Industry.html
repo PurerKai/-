@@ -24,8 +24,8 @@
     <header class="header_area">
         <div class="main_menu container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand logo_h" href="index.html"><img src="#"
-                        style="width: 50px; height: 50px;" alt="">柏修好醜</a>
+                <a class="navbar-brand logo_h" href="index.html"><img src="#" style="width: 50px; height: 50px;"
+                        alt="">柏修好醜</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,9 +38,9 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="true" aria-expanded="false">產業價值</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="Industry.html?q=a">上游</a>
-                                <a class="dropdown-item" href="Industry.html">中游</a>
-                                <a class="dropdown-item" href="Industry.html">下游</a>
+                                <a id="Up" class="dropdown-item" href="Industry.html?q=Upstream">上游</a>
+                                <a id="Mid" class="dropdown-item" href="Industry.html?q=Midstream">中游</a>
+                                <a id="Down" class="dropdown-item" href="Industry.html?q=Downstream">下游</a>
                             </div>
                         </li>
                     </ul>
@@ -94,17 +94,17 @@
                             <nav id="tabNav" class="navbar page-nav nav-look ">
                                 <ul id=" myTab" class="nav tab-menu">
                                     <li>
-                                        <a href="#Upstream" data-toggle="tab" class="nav-item nav-link active">
+                                        <a id="Up" href="#Upstream" data-toggle="tab" class="nav-item nav-link active">
                                             上游<p>Upstream</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#Midstream" data-toggle="tab" class="nav-item nav-link">
+                                        <a id="Mid" href="#Midstream" data-toggle="tab" class="nav-item nav-link">
                                             中游<p>Midstream</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#Downstream" data-toggle="tab" class="nav-item nav-link">
+                                        <a id="Down" href="#Downstream" data-toggle="tab" class="nav-item nav-link">
                                             下游<p>Downstream</p>
                                         </a>
                                     </li>
@@ -115,7 +115,7 @@
                                     </li>
                                     <li>
                                         <a href="#retail-commodity" data-toggle="tab" class="nav-item nav-link">
-                                            零售商品<p>retail-commodity</p>
+                                            市場分析<p>retail-commodity</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -132,65 +132,86 @@
         <section class="row ">
             <div class="col page-content">
                 <div id="myTabContent" class="tab-content">
-                    <div id="Upstream" class="Upstream tab-pane fade active show">     
+                    <div id="Upstream" class="tab-pane fade active show">
                         <article class="content">
                             <div class="block">
-                                <p class="text-center"><b>天然纖維</b></p>
-                                <a href="http://www.tungho.com.tw/index.php?option=module&lang=cht&task=showlist&id=19&index=1">
-                                    <img class="img1" src="IMG/天然纖維 上游.PNG"></a>
-                            </div>     
-                            <div class="block">
+                                <h4 class="text-center"><b>天然纖維</b></h4>
+                                <div class="product">
+                                    <div class="product-front">
+                                        <img class="img1" src="IMG/天然纖維 上游.PNG">
+                                    </div>
+                                    <div class="product-back">
+                                        <p>瓷製器物<br>
+                                            <span>
+                                                由瓷石、高嶺土、石英石、莫來石等燒製而成，外表施有玻璃質釉或彩繪的物器。瓷器的成形要通過在窯內經過高溫（約1280℃～1400℃）燒製，瓷器表面的釉色會因為溫度的不同從而發生各種化學變化。
+                                            </span>
+                                        </p>
+                                        <a
+                                            href="http://www.tungho.com.tw/index.php?option=module&lang=cht&task=showlist&id=19&index=1">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="block">
                                 <p class="text-center"><b>PU聚酯</b></p>
                                 <a href="http://www.nanya-iaaf-pu.com/subcategory/product/3">
-                                    <img class="img2" src="IMG/上游 南亞.PNG"></a>
+                                    <img class="img1" src="IMG/上游 南亞.PNG"></a>
                             </div>
                             <div class="block">
                                 <p class="text-center"><b>短纖紗</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=13&index=1">
-                                    <img class="img2" src="IMG/短纖紗.PNG"></a>
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=13&index=1">
+                                    <img class="img1" src="IMG/短纖紗.PNG"></a>
                             </div>
                             <div class="block">
                                 <p class="text-center"><b>聚酯棉</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=33&index=1">
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=33&index=1">
                                     <img class="img1" src="IMG/聚酯棉.PNG"></a>
                             </div>
                             <div class="block">
                                 <p class="text-center"><b>聚酯半延伸絲</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=34&index=2">
-                                    <img class="img2" src="IMG/聚酯半延伸絲.PNG"></a>
-                            </div>  
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=34&index=2">
+                                    <img class="img1" src="IMG/聚酯半延伸絲.PNG"></a>
+                            </div>
                             <div class="block">
                                 <p class="text-center"><b>聚酯加工絲</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=35&index=3">
-                                    <img class="img2" src="IMG/聚酯加工絲.PNG"></a>
-                            </div> 
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=35&index=3">
+                                    <img class="img1" src="IMG/聚酯加工絲.PNG"></a>
+                            </div>
                             <div class="block">
                                 <p class="text-center"><b>聚酯系列</b></p>
-                                <a href="http://www.tungho.com.tw/index.php?option=module&lang=cht&task=showlist&id=20&index=2">
+                                <a
+                                    href="http://www.tungho.com.tw/index.php?option=module&lang=cht&task=showlist&id=20&index=2">
                                     <img class="img1" src="IMG/聚酯系列.PNG"></a>
-                            </div> 
+                            </div>
                             <div class="block">
                                 <p class="text-center"><b>機能性聚酯纖維DM</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=296&index=1#prettyPhoto">
-                                    <img class="img2" src="IMG/機能性聚酯纖維DM.PNG"></a>
-                            </div> 
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=296&index=1#prettyPhoto">
+                                    <img class="img1" src="IMG/機能性聚酯纖維DM.PNG"></a>
+                            </div>
                             <div class="block">
                                 <p class="text-center"><b>棉紗產品DM</b></p>
-                                <a href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=334&index=2">
-                                    <img class="img2" src="IMG/棉紗產品DM.PNG"></a>
-                            </div> 
+                                <a
+                                    href="http://www.tainanspin.com.tw/index.php?option=module&lang=cht&task=showlist&id=334&index=2">
+                                    <img class="img1" src="IMG/棉紗產品DM.PNG"></a>
+                            </div>
                             <div class="block">
                                 <p class="text-center"><b>阻燃布料科技</b></p>
-                                <a href="http://tw.tahtong.com.tw/index_down.php?CA=6&ISPID=18&IIBig=10&ppd=15&productstyle=15&sele=shopbig_dm_no">
+                                <a
+                                    href="http://tw.tahtong.com.tw/index_down.php?CA=6&ISPID=18&IIBig=10&ppd=15&productstyle=15&sele=shopbig_dm_no">
                                     <img class="img1 imgend" src="IMG/阻燃布料科技.PNG"></a>
-                            </div>     
-                        
-                             </article>
+                            </div> -->
 
-                             <h1 class="mt-5">|Product VIDEO|   </h1> 
-                             <iframe src="https://www.youtube.com/embed/qkCUk3oaytk" frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                    </div>              
+                        </article>
+
+                        <h1 class="mt-5">|Product VIDEO| </h1>
+                        <iframe src="https://www.youtube.com/embed/qkCUk3oaytk" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                     <div id="Midstream" class="tab-pane fade">
                         <div>
                             中游介紹
@@ -248,69 +269,104 @@
                         </div>
                     </div>
                     <div id="Internet-commerce" class="tab-pane fade">
-                        <div>
-                            網路電商
+                        <div class="zxc">
+                            <span>蝦皮</span>
+                            <a href="https://shopee.tw/%E7%94%B7%E7%94%9F%E8%A1%A3%E8%91%97-cat.63">
+                                <img src="IMG/蝦皮.jpg"> </a>
+                            <b>台灣普遍年輕人較愛使用,因為上面東西較便宜常常配合節日有活動特價,
+                                不過有多大陸貨存在品質較不一的問題</b>
                         </div>
-                        <div>
-                            蝦皮
-                            <a href="https://shopee.tw/%E7%94%B7%E7%94%9F%E8%A1%A3%E8%91%97-cat.63"> <img src="IMG/蝦皮.jpg">
-                          </a>
-                          <div>
-                              台灣普遍年輕人較愛使用,因為上面東西較便宜常常配合節日有活動特價,不過有許多大陸貨存在品質較不一的問題
-                          </div>
-                        </div>
-                        <div>
+                        <div class="bbc">
                             PCHOME
                             <a href="https://24h.pchome.com.tw/sign/vogue.htm"><img src="IMG/PCHOME.png"></a>
-                            <div>
+                            <b>
                                 主打24小時到貨,讓客戶可以迅速拿到想要的物品,因此也吸引了許多人,畢竟等其他平台到貨都需要幾天的時間
-                            </div>
+                            </b>
                         </div>
-                        <div>
+                        <div class="zxc">
                             NIKEID
                             <a href="https://www.nike.com/tw/nike-by-you"><img src="IMG/NIKEID.jpg"></a>
-                            <div>
+                            <b>
                                 讓客人訂製自己專屬獨一無二的鞋款 提供多元化的客製
-                            </div>
+                            </b>
                         </div>
-                        <div>
+                        <div class="zxc">
                             AMAZON
-                            <a href="https://www.amazon.com/s?i=specialty-aps&bbn=16225021011&rh=n%3A7141123011%2Cn%3A16225021011%2Cn%3A1040666&language=zh_TW&ref=nav_em__nav_desktop_sa_intl_clothing_0_2_15_2">
+                            <a
+                                href="https://www.amazon.com/s?i=specialty-aps&bbn=16225021011&rh=n%3A7141123011%2Cn%3A16225021011%2Cn%3A1040666&language=zh_TW&ref=nav_em__nav_desktop_sa_intl_clothing_0_2_15_2">
                                 <img src="IMG/Amazon.jpg"></a>
-                                <div>
-                                    全球最大的電商平台
-                                </div>
+                            <b>
+                                全球最大的電商平台
+                            </b>
                         </div>
                     </div>
                     <div id="retail-commodity" class="tab-pane fade">
-                        <div1>
-                            <ul>
-                                <li>
-                                    <details>
-                                        <summury></summury>
-                                       
-                                    </details>
-                                </li>
-                                <li>
-                                    <details>
-                                        <summury></summury>
-                                       
-                                    </details>
-                                </li>
-                                <li>
-                                    <span class="b2b">
-                                    轉型經營模式
+                        <div class=""></div>
+                            <span class="market"><h1>市場分析</h1></span>
+                            <div>
+                                <span class="market"><h2>代工市場</h2></span>
+                                <div class="market-product">
+                                    <img src="IMG/1.jpg" class="product">
+                                    <span class="text">
+                                        <p>原因:環境機會較少，透過為一些品牌大廠代工，用自身擁有的特殊技術或機器做出不一樣的優勢，吸引客戶及消費者</p>
+                                        <p>優點:代工成本與一條龍服務成本較低、訂單來源較穩定、市場規模較大</p>
+                                        <p>缺點:容易受國際情勢影響</p>
+                                        <p>基本要求:生產速度要快、技術創新要快、反映客戶需求要快、原物料來源穩定</p>
+                                        <p>客戶群:大型品牌廠、大型成衣加工廠</p>
                                     </span>
-                                    <details>
-                                        <summury></summury>
-                                       <img src="IMG/b2b.PNG" class="img1">
-                                       <img src="IMG/transfer.PNG" class="img2">
-                                    </details>
-                                </li>
-                            </ul>
-                        </div1>
+                                </div>
+                            </div>
+                            <div>                               
+                                <span class="market"><h3>客製化市場</h3></span>
+                                <div class="market-product">
+                                    <img src="IMG/1.jpg" class="product">
+                                    <span class="text">
+                                        <p>原因:開拓特定族群，針對特殊需求而發展出的新市場</p>
+                                        <p>優點:展現出差異化、可發展出自有品牌</p>
+                                        <p>缺點:和代工難以同時進行、</p>
+                                        <p>基本要求:設備需求完善、技術創新要快</p>
+                                        <p>客戶群:小型團體、公司及社會機構團體、品牌廠</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4>儒鴻</h4>
+                                    <img src="IMG/1.jpg" class="product">
+                                    <span class="market-text">
+                                        <p>專精於機能服飾製造</p>
+                                        <p>特點:研發能力(配合地區環境變化運用不同材料，提供不同需求)</p>
+                                        <p>突出項目:上衣、褲子</p>
+                                        <p>代工所佔比例:50%~60%</p>
+                                        <p>客戶為Nike、Adidas、Under Armour等一線運動機能服飾品牌</p>
+                                    </span>                                    
+                            </div>
+                            <div>
+                                <h5>聚陽</h5>
+                                    <img src="IMG/1.jpg" class="product"/>
+                                    <span class="market-text">
+                                        <p>為流行成衣製造商</p>
+                                        <p>特點:銷售價格接受度高、銷售反應速度快</p>
+                                        <p>跨足產品設計、快速3D打樣及原物料整合，直接提供客戶一站式採購服務，</p>
+                                        <p>項目比例:功能性服飾27%、時尚性服飾73%(美國代工佔其中80%)，流行服飾為主力產品，機能性布料佔比持續增加
+                                            聚陽前幾大客戶以流行品牌商為主，流行服飾 （ Fashion apparel ） 為主力代工產品，約佔營收比 70% 以上。值得注意的是，運動機能服飾代工的比重節節上升，從 2016 年的 20% 逐漸攀升至 2019 年的 27%。而根據公司說法， 2020 年將加入 4～6 個新客戶，主要為運動相關品牌，公司也看好未來瑜伽、慢跑、戶外機能服飾的成長。</p>
+                                        <p>主打客群:青年、中年</p>
+                                        <p>客戶包括快時尚品牌GAP、Uniqlo、H&M、 ZARA等。</p>
+                                    </span>                                    
+                            </div>
+                            <div>
+                                <h6>廣越</h6>
+                                    <img src="IMG/1.jpg" class="product"/>
+                                    <span class="market-text">
+                                        <p>全球最大羽絨服飾專業製造廠</p>
+                                        <p>特色:品管為首要議題，廣越轉投資尚弘羽絨以增加原料自主性，福懋興業供應其羽絨衣專用防絨布，確保品質穩定。</p>
+                                        <p>目標:進軍高階針織服飾、消彌淡旺季間之波動。</p>
+                                        <p>缺點:羽絨服飾產業淡旺季較明顯</p>
+                                        <p>客戶包括Moncler、Nike、Adidas、The north face、Patagonia、Mont-Bell等戶外、運動品牌。</p>
+                                    </span>                                    
+                            </div>                                    
+                        </div>
                     </div>
-                 
+
                 </div>
             </div>
             </div>
@@ -321,6 +377,9 @@
 
     </footer>
     <!-- 導覽列 end -->
+    <!-- Jquery 函式庫 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- bootstrap 框架 JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -332,11 +391,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <!-- Jquery 函式庫 -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- 網頁的JS -->
-    <script src="JS/index.js"></script>
+    <script src="JS/industry.js"></script>
 </body>
 
 </html>

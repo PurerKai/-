@@ -1,29 +1,18 @@
-#div1 img{
+#retail-commodity{
+
+}
+.product1 {
     position: relative;
-    width: 400px;
-    height: 400px;
+    padding: 30px;
+    top: 0%;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
 }
-.survey{
-    font-size: 30px;
+.product:hover{
+    color: aquamarine;
 }
-.survey2{
-    font-size: 35px;
-    color: orchid;
-    
-}
-.b2b{
-    font-size: 35px;
-    color: blue;    
-}
-.img1{
-    padding: 15px;
-    position: relative;
-    width: 300px;
-    height: 325px;
-}
-.img2{
-    padding: 15px;
-    width: 300px;
-    height: 325px;
-    position: relative;
+.ASD:active{
+    opacity: 0;
+    display: none;
 }
