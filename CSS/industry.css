@@ -14,7 +14,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: lightgray;
+  background-color: rgb(126, 177, 245);
   margin: 0px 0px 15px 0px;
   text-align: center;
 }
