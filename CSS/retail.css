@@ -1,5 +1,9 @@
-#retail-commodity {
+#myTab .active {
+  color: red;
 }
+/* +++++++++++++++++++++++++ 
+    TODO:零售市場 開始
++++++++++++++++++++++++++ */
 #retail-commodity .product1 {
   position: relative;
   padding: 30px;
@@ -15,3 +19,7 @@
   opacity: 0;
   display: none;
 }
+
+/* +++++++++++++++++++++++++ 
+    零售市場 結束
++++++++++++++++++++++++++ */
