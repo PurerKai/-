@@ -4,20 +4,58 @@
 /* +++++++++++++++++++++++++ 
     TODO:零售市場 開始
 +++++++++++++++++++++++++ */
-#retail-commodity .product1 {
-  position: relative;
-  padding: 30px;
-  top: 0%;
-  flex-direction: row;
+#retail1 .market-product1{
+  position: relative ;
+  right: 0;
+  margin: 0 20px 20px 20px;
+
+}
+#retail1 .introduce1{
+  float: right;
+  margin: 0 30px 30px 0;
   width: 200px;
-  height: 200px;
+  clear: both;
 }
-#retail-commodity .product:hover {
-  color: aquamarine;
+.introduce1 img{
+  width: 350px;
+  height: 350px;
 }
-#retail-commodity .ASD:active {
-  opacity: 0;
-  display: none;
+.imga1 img{
+  width: 250px;
+  height: 150px;
+  flex-direction: row;
+  flex-wrap:wrap ;
+  padding: 10px 0 20px 0;
+  background-color: whitesmoke;
+  background-size: cover;
+  
+}
+
+#retail2 .market-product2{
+  position: relative ;
+  right: 0;
+  margin: 0 20px 20px 20px;
+
+}
+#retail2 .introduce2{
+  float: right;
+  margin: 0 30px 30px 0;
+  width: 200px;
+  clear: both;
+}
+.introduce2 img{
+  width: 350px;
+  height: 350px;
+}
+.imga2 img{
+  width: 250px;
+  height: 150px;
+  flex-direction: row;
+  flex-wrap:wrap ;
+  padding: 10px 0 20px 0;
+  background-color: whitesmoke;
+  background-size: cover;
+  
 }
 
 /* +++++++++++++++++++++++++ 
