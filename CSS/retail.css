@@ -1,0 +1,25 @@
+#myTab .active {
+  color: red;
+}
+/* +++++++++++++++++++++++++ 
+    TODO:零售市場 開始
++++++++++++++++++++++++++ */
+#retail-commodity .product1 {
+  position: relative;
+  padding: 30px;
+  top: 0%;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+}
+#retail-commodity .product:hover {
+  color: aquamarine;
+}
+#retail-commodity .ASD:active {
+  opacity: 0;
+  display: none;
+}
+
+/* +++++++++++++++++++++++++ 
+    零售市場 結束
++++++++++++++++++++++++++ */
