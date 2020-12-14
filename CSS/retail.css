@@ -57,6 +57,16 @@
   background-size: cover;
   
 }
+#retail3 .child{
+  position: relative;
+  top: 0;
+}
+.child img{
+  position: relative;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
 
 /* +++++++++++++++++++++++++ 
     零售市場 結束
