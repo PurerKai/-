@@ -21,8 +21,8 @@
   height: 350px;
 }
 .imga1 img{
-  width: 250px;
-  height: 150px;
+  width: 150px;
+  height: 75px;
   flex-direction: row;
   flex-wrap:wrap ;
   padding: 10px 0 20px 0;
@@ -48,14 +48,24 @@
   height: 350px;
 }
 .imga2 img{
-  width: 250px;
-  height: 150px;
+  width: 150px;
+  height: 75px;
   flex-direction: row;
   flex-wrap:wrap ;
   padding: 10px 0 20px 0;
   background-color: whitesmoke;
   background-size: cover;
   
+}
+#retail3 .child{
+  position: relative;
+  top: 0;
+}
+.child img{
+  position: relative;
+  right: 0;
+  width: 200px;
+  height: 200px;
 }
 
 /* +++++++++++++++++++++++++ 
