@@ -144,6 +144,11 @@
   position: relative;
   background: yellow;
 }
+.it-make img{
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
 #retail3 .it-market{
   position: relative;
   background-color: chocolate;
