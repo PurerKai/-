@@ -8,7 +8,7 @@
   position: relative ;
   right: 0;
   margin: 0 20px 20px 20px;
-
+  background-color: yellow;
 }
 #retail1 .introduce1{
   float: right;
@@ -20,24 +20,43 @@
   width: 350px;
   height: 350px;
 }
-.imga1 img{
-  width: 150px;
-  height: 75px;
-  flex-direction: row;
-  flex-wrap:wrap ;
-  padding: 10px 0 20px 0;
-  background-color: whitesmoke;
-  background-size: cover;
-  
+#retail1 .text1{
+  font-size: 20px;
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  background-color: chocolate;
 }
-
-#retail2 .market-product2{
+.fac1{
+  position: relative;
+}
+.fac1 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.fac2{
+  position: relative;
+}
+.fac2 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.fac3{
+  position: relative;
+}
+.fac3 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail1 .market-product2{
   position: relative ;
   right: 0;
   margin: 0 20px 20px 20px;
-
+  background-color: yellow;
 }
-#retail2 .introduce2{
+#retail1 .introduce2{
   float: right;
   margin: 0 30px 30px 0;
   width: 200px;
@@ -47,27 +66,88 @@
   width: 350px;
   height: 350px;
 }
-.imga2 img{
-  width: 150px;
-  height: 75px;
-  flex-direction: row;
-  flex-wrap:wrap ;
-  padding: 10px 0 20px 0;
-  background-color: whitesmoke;
-  background-size: cover;
-  
-}
-#retail3 .child{
+#retail1 .text2{
+  font-size: 20px;
+  margin: 5px 5px 5px 5px;
   position: relative;
-  top: 0;
+  background-color: chocolate;
+}
+.fac4{
+  position: relative;
+}
+.fac4 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.fac5{
+  position: relative;
+}
+.fac5 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .child{
+  position: relative;
+  background-color: yellow;
 }
 .child img{
+  width: 300px;
+  height: 250px;
   position: relative;
-  right: 0;
-  width: 200px;
-  height: 200px;
 }
-
+#retail2 .child-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .women{
+  position: relative;
+  background-color: yellow;
+}
+.women img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .women-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .man{
+  position: relative;
+  background-color: yellow;
+}
+.man img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .man-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .old{
+  position: relative;
+  background-color: yellow;
+}
+.old img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .old-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail3 .it-make{
+  position: relative;
+  background: yellow;
+}
+#retail3 .it-market{
+  position: relative;
+  background-color: chocolate;
+}
 /* +++++++++++++++++++++++++ 
     零售市場 結束
 +++++++++++++++++++++++++ */
