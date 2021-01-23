@@ -20,12 +20,21 @@ main {
   text-align: center;
   padding: 0;
 }
+#Internet-commerce .card-footer {
+  text-align: center;
+  padding: 0;
+}
 #Internet-commerce .card-header .card-link {
   font-weight: 600;
   letter-spacing: 0.125rem;
   text-align: center;
   display: block;
   padding: 10px 0px 10px 0px;
+}
+#Internet-commerce .card-footer .card-link {
+  text-align: center;
+  display: block;
+  padding: 0px;
 }
 a.card-link::before {
   content: "\f106";
