@@ -6,25 +6,28 @@
 +++++++++++++++++++++++++ */
 #retail1 .market-product1{
   position: relative ;
-  right: 0;
-  margin: 0 20px 20px 20px;
-  background-color: yellow;
+  margin: 0 0 0 0;
+  background-size: auto;
+  background-color:  rgba(145, 255, 0, 0.897);
 }
 #retail1 .introduce1{
-  float: right;
-  margin: 0 30px 30px 0;
-  width: 200px;
-  clear: both;
+  width: 370px;
+  text-align: left;
+  word-wrap: break-word;
 }
-.introduce1 img{
-  width: 350px;
-  height: 350px;
+.market-product1 img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 #retail1 .text1{
-  font-size: 20px;
+  font-size: 30px;
   margin: 5px 5px 5px 5px;
   position: relative;
-  background-color: chocolate;
+  
+  background-color: rgba(30, 210, 156, 0.918);
 }
 .fac1{
   position: relative;
@@ -32,7 +35,9 @@
 .fac1 img{
   width: 300px;
   height: 250px;
-  position: relative;
+  position:relative;
+  top: 10px;
+  left: 10px;
 }
 .fac2{
   position: relative;
@@ -52,42 +57,31 @@
 }
 #retail1 .market-product2{
   position: relative ;
-  right: 0;
-  margin: 0 20px 20px 20px;
-  background-color: yellow;
+  margin: 0 0 0 0;
+  background-color: rgba(145, 255, 0, 0.897);
+  background-size: auto;
+  text-align: left;
+  
 }
 #retail1 .introduce2{
-  float: right;
-  margin: 0 30px 30px 0;
-  width: 200px;
-  clear: both;
+  width: 370px;
+  text-align: left;
+  word-wrap: break-word;
 }
-.introduce2 img{
-  width: 350px;
-  height: 350px;
+.market-product2 img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 #retail1 .text2{
   font-size: 20px;
   margin: 5px 5px 5px 5px;
   position: relative;
-  background-color: chocolate;
+  background-color: rgba(30, 210, 156, 0.918);
 }
-.fac4{
-  position: relative;
-}
-.fac4 img{
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
-.fac5{
-  position: relative;
-}
-.fac5 img{
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
+
 #retail2 .child{
   position: relative;
   background-color: yellow;
