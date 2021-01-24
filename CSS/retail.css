@@ -8,7 +8,7 @@
   position: relative ;
   margin: 0 0 0 0;
   background-size: auto;
-  background-color:  rgba(145, 255, 0, 0.897);
+  background-color:  grey;
 }
 #retail1 .introduce1{
   width: 370px;
@@ -23,20 +23,22 @@
   right: 0px;
 }
 #retail1 .text1{
-  font-size: 30px;
+  font-size: 15px;
   margin: 5px 5px 5px 5px;
   position: relative;
+  font-size: 26px;
   
   background-color: rgba(30, 210, 156, 0.918);
 }
 .fac1{
   position: relative;
+  font-size: 20px;
 }
 .fac1 img{
   width: 300px;
-  height: 250px;
+  height: 200px;
   position:relative;
-  top: 10px;
+  top: 5px;
   left: 10px;
 }
 .fac2{
@@ -55,28 +57,62 @@
   height: 250px;
   position: relative;
 }
+.fac4{
+  position: relative;
+}
+.fac4 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
 #retail1 .market-product2{
   position: relative ;
   margin: 0 0 0 0;
   background-color: rgba(145, 255, 0, 0.897);
   background-size: auto;
   text-align: left;
-  
 }
+
 #retail1 .introduce2{
   width: 370px;
   text-align: left;
   word-wrap: break-word;
 }
 .market-product2 img{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 0px;
   right: 0px;
 }
-
-
+#retail1 .market-product3{
+  position: relative;
+  background-color: burlywood;
+  background-size: auto;
+  font-size: 20px;
+}
+.odb-img img{
+  width: 200px;
+  height: auto;
+  margin: 70px;
+}  
+.market-product3 .oem{
+  word-wrap: break-word;
+}
+.market-product3 .odm{
+  word-wrap: break-word;
+}
+.market-product3 .obm{
+  word-wrap: break-word;
+}
+#retail1 .market-product4{
+  position: relative;
+  font-size: 20px;
+  background-color: darkkhaki;
+}
+.plan{
+  text-align: left;
+}
 #retail2 .child{
   position: relative;
   background-color: yellow;
