@@ -6,68 +6,178 @@
 +++++++++++++++++++++++++ */
 #retail1 .market-product1{
   position: relative ;
-  right: 0;
-  margin: 0 20px 20px 20px;
-
+  margin: 0 0 0 0;
+  background-size: auto;
+  background-color:  grey;
 }
 #retail1 .introduce1{
-  float: right;
-  margin: 0 30px 30px 0;
-  width: 200px;
-  clear: both;
+  width: 370px;
+  text-align: left;
+  word-wrap: break-word;
 }
-.introduce1 img{
-  width: 350px;
-  height: 350px;
+.market-product1 img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
-.imga1 img{
-  width: 150px;
-  height: 75px;
-  flex-direction: row;
-  flex-wrap:wrap ;
-  padding: 10px 0 20px 0;
-  background-color: whitesmoke;
-  background-size: cover;
+#retail1 .text1{
+  font-size: 15px;
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  font-size: 26px;
   
+  background-color: rgba(30, 210, 156, 0.918);
 }
-
-#retail2 .market-product2{
+.fac1{
+  position: relative;
+  font-size: 20px;
+}
+.fac1 img{
+  width: 300px;
+  height: 200px;
+  position:relative;
+  top: 5px;
+  left: 10px;
+}
+.fac2{
+  position: relative;
+}
+.fac2 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.fac3{
+  position: relative;
+}
+.fac3 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+.fac4{
+  position: relative;
+}
+.fac4 img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail1 .market-product2{
   position: relative ;
-  right: 0;
-  margin: 0 20px 20px 20px;
+  margin: 0 0 0 0;
+  background-color: rgba(145, 255, 0, 0.897);
+  background-size: auto;
+  text-align: left;
+}
 
+#retail1 .introduce2{
+  width: 370px;
+  text-align: left;
+  word-wrap: break-word;
 }
-#retail2 .introduce2{
-  float: right;
-  margin: 0 30px 30px 0;
-  width: 200px;
-  clear: both;
-}
-.introduce2 img{
-  width: 350px;
-  height: 350px;
-}
-.imga2 img{
-  width: 150px;
-  height: 75px;
-  flex-direction: row;
-  flex-wrap:wrap ;
-  padding: 10px 0 20px 0;
-  background-color: whitesmoke;
-  background-size: cover;
-  
-}
-#retail3 .child{
-  position: relative;
-  top: 0;
-}
-.child img{
-  position: relative;
-  right: 0;
+.market-product2 img{
   width: 200px;
   height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
-
+#retail1 .market-product3{
+  position: relative;
+  background-color: burlywood;
+  background-size: auto;
+  font-size: 20px;
+}
+.odb-img img{
+  width: 200px;
+  height: auto;
+  margin: 70px;
+}  
+.market-product3 .oem{
+  word-wrap: break-word;
+}
+.market-product3 .odm{
+  word-wrap: break-word;
+}
+.market-product3 .obm{
+  word-wrap: break-word;
+}
+#retail1 .market-product4{
+  position: relative;
+  font-size: 20px;
+  background-color: darkkhaki;
+}
+.plan{
+  text-align: left;
+}
+#retail2 .child{
+  position: relative;
+  background-color: yellow;
+}
+.child img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .child-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .women{
+  position: relative;
+  background-color: yellow;
+}
+.women img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .women-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .man{
+  position: relative;
+  background-color: yellow;
+}
+.man img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .man-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail2 .old{
+  position: relative;
+  background-color: yellow;
+}
+.old img{
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+#retail2 .old-market{
+  position: relative;
+  background-color: chocolate;
+}
+#retail3 .it-make{
+  position: relative;
+  background: yellow;
+}
+.it-make img{
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+#retail3 .it-market{
+  position: relative;
+  background-color: chocolate;
+}
 /* +++++++++++++++++++++++++ 
     零售市場 結束
 +++++++++++++++++++++++++ */

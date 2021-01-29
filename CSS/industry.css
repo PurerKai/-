@@ -10,7 +10,64 @@ main {
 /* +++++++++++++++++++++++++ 
     TODO:網路電商 開始
 +++++++++++++++++++++++++ */
-#Internet-commerce .block {
+#Internet-commerce .card {
+  margin-bottom: 20px;
+}
+#Internet-commerce .title-block {
+  text-align: center;
+}
+#Internet-commerce .card-header {
+  text-align: center;
+  padding: 0;
+}
+#Internet-commerce .card-footer {
+  text-align: center;
+  padding: 0;
+}
+#Internet-commerce .card-header .card-link {
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  display: block;
+  padding: 10px 0px 10px 0px;
+}
+#Internet-commerce .card-footer .card-link {
+  text-align: center;
+  display: block;
+  padding: 0px;
+}
+a.card-link::before {
+  content: "\f106";
+  width: 12px;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  margin-right: 1rem;
+}
+a.collapsed::before {
+  content: "\f103";
+  width: 12px;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  margin-right: 1rem;
+}
+.sec4 a.card-link::before {
+  content: "\f106";
+  width: 12px;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  margin: 0;
+}
+.sec4 a.collapsed::before {
+  content: "\f103";
+  width: 12px;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  margin: 0;
+}
+#Internet-commerce .card-body {
+  text-align: center;
+}
+/* #Internet-commerce .block {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,15 +93,18 @@ main {
   height: 250px;
   margin: 0px 15px 0px 0px;
 }
+.header_area1 {
+  background-color: #f8f9fa;
+} */
 /* +++++++++++++++++++++++++ 
     網路電商 結束
 +++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++ 
     TODO:線上商店 開始
 +++++++++++++++++++++++++ */
-#online-store dd{
-  font-size: 20px;
-} 
+#online-store dd {
+  font-size: 30px;
+}
 /* +++++++++++++++++++++++++ 
     線上商店 結束
 +++++++++++++++++++++++++ */
