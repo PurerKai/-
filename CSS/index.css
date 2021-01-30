@@ -18,11 +18,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-<<<<<<< HEAD
-  border-width: 0 550px 150px 550px;
-=======
   border-width: 0 50vw 100px 50vw;
->>>>>>> 2de8e5f0cb714a147ca57527afc00fb31eb46bd8
   border-color: transparent transparent white transparent;
   position: absolute;
   bottom: 0px;
