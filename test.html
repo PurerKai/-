@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" id="excel-file">
+    <h1></h1>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/xlsx.core.min.js"></script>
+    <script>
+        $('#excel-file').change(function (e) {
+            var files = e.target.files;
+
+            var fileReader = new FileReader();
+            fileReader.onload = function (ev) {
+                try {
+                    var data = ev.target.result,
+                        workbook = XLSX.read(data, {
+                            type: 'binary'
+                        }), // 以二進位制流方式讀取得到整份excel表格物件
+                        persons = []; // 儲存獲取到的資料
+                } catch (e) {
+                    console.log('檔案型別不正確');
+                    return;
+                }
+
+                // 表格的表格範圍，可用於判斷表頭是否數量是否正確
+                var fromTo = '';
+                // 遍歷每張表讀取
+                for (var sheet in workbook.Sheets) {
+                    if (workbook.Sheets.hasOwnProperty(sheet)) {
+                        fromTo = workbook.Sheets[sheet]['!ref'];
+                        console.log(fromTo);
+                        persons = persons.concat(XLSX.utils.sheet_to_json(workbook.Sheets[sheet]));
+                        // break; // 如果只取第一張表，就取消註釋這行
+                    }
+                }
+                console.log(persons)
+
+            };
+
+            // 以二進位制方式開啟檔案
+            fileReader.readAsBinaryString(files[0]);
+        });
+    </script>
+</body>
+
+</html>

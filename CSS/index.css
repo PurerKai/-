@@ -32,9 +32,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 240px;
-  animation-name: rrrrr;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
 }
 .banner div {
   width: 100px;
@@ -63,9 +60,6 @@
   border-radius: 50%;
   background-color: green;
   position: absolute;
-  animation-name: rrrrr;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
 }
 .line {
   width: 200px;
@@ -82,6 +76,9 @@
   100% {
     transform: rotate(360deg);
   }
+}
+iframe {
+  display: none;
 }
 /* animation-name: rrrrr;
 animation-duration: 2s;
