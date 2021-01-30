@@ -113,3 +113,15 @@ a.collapsed::before {
 /* +++++++++++++++++++++++++ 
     線上商店 結束
 +++++++++++++++++++++++++ */
+table th,td{
+  border: 1px solid black;
+
+}
+tr:nth-child(2){
+  background-color:cornflowerblue;
+  color: white;
+}
+tr:nth-child(5){
+  background-color: cornflowerblue;
+  color: white;
+}

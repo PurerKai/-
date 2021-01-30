@@ -26,9 +26,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav menu_nav ml-5">
-                        <li class="nav-item active"><a class="nav-link" href="product.html">紡織產業</a></li>
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">ㄈ業</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="true" aria-expanded="false">行銷模式</a>
@@ -343,51 +341,6 @@
         crossorigin="anonymous"></script>
     <!-- 網頁的JS -->
     <script src="JS/product.js"></script>
-    <script>
-        $.ajax({
-            url: '紡織產品.csv',
-            dataType: 'text',
-        }).done(successFunction);
-        var tagg=[]
-        function successFunction(data) {
-            var allRows = data.split(/\r?\n|\r/);
-            var table = '<table>';
-            for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
-                if (singleRow === 0) {
-                    table += '<thead>';
-                    table += '<tr>';
-                } else {
-                    table += '<tr>';
-                }
-                var rowCells = allRows[singleRow].split(',');
-                tagg[singleRow]=rowCells
-                for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
-                    if (singleRow === 0) {
-                        table += '<th>';
-                        table += rowCells[rowCell];
-                        table += '</th>';
-                    } else {
-                        table += '<td>';
-                        table += rowCells[rowCell];
-                        table += '</td>';
-                    }
-                }
-                if (singleRow === 0) {
-                    table += '</tr>';
-                    table += '</thead>';
-                    table += '<tbody>';
-                } else {
-                    table += '</tr>';
-                }
-            }
-            table += '</tbody>';
-            table += '</table>';
-            $('body').append(table);
-            console.log("kaikai")
-           console.log(tagg)
-            $('.product-back').append(tagg[11]);
-        }
-    </script>
 </body>
 
 </html>
