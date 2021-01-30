@@ -1,28 +1,11 @@
+body {
+  background: linear-gradient(to top, #93ff93, white);
+  z-index: 1000;
+  height: 100vh;
+}
 .big-block {
   display: flex;
   justify-content: center;
-}
-.banner-top,
-.banner-bottom {
-  background-color: black;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.banner-bottom {
-  margin-top: 320px;
-  transform: rotate(180deg);
-}
-.tr3 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 50vw 100px 50vw;
-  border-color: transparent transparent white transparent;
-  position: absolute;
-  bottom: 0px;
-  overflow: hidden;
 }
 .banner {
   width: 200px;
@@ -47,7 +30,7 @@
   cursor: pointer;
 }
 .div1 {
-  background-color: rgb(2, 120, 189);
+  background-color: rgb(0, 192, 32);
   transform: translateX(-15px) translateY(-15px);
 }
 .div2 {
@@ -55,23 +38,15 @@
   transform: translateX(25px) translateY(-25px);
 }
 .div3 {
-  background-color: rgb(235, 106, 1);
+  background-color: rgb(0, 192, 96);
   transform: translateX(-25px) translateY(25px);
 }
 .div4 {
-  background-color: rgb(67, 65, 226);
+  background-color: rgb(0, 192, 48);
   transform: translateX(15px) translateY(15px);
 }
 .div5 {
   border-radius: 50%;
   background-color: green;
   position: absolute;
-}
-.line {
-  width: 200px;
-  height: 10px;
-  background-color: black;
-  position: absolute;
-  transform: rotate(90deg);
-  margin-top: 480px;
 }
