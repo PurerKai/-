@@ -66,7 +66,12 @@
                                     </li>
                                     <li>
                                         <a href="#online-store" data-toggle="tab" class="nav-item nav-link">
-                                            線上商店<p>online-store</p>
+                                            公司比較<p>online-store</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#newtab" data-toggle="tab" class="nav-item nav-link">
+                                            自己改蘇柏修<p>英文</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -586,10 +591,78 @@
                             </div>
                         </dd> -->
                     </div>
+                    <!-- TODO:XXXX -->
+                    <article id="newtab" class="tab-pane fade">
+                        <section class="row block2">
+                            <div class="col-1"></div>
+                            <div class="col-4 title-block">
+                                <h1>XXXX</h1>
+                                <p>標題內文</p>
+                            </div>
+                            <div class="col-6">
+                                <div><img src="/IMG/108109.PNG" alt=""></div>
+                            </div>
+                            <div class="col-1"></div>
+                        </section>
+                        <section class="row block3">
+                            <div class="block3-in">
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn01">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn02">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn03">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn04">查看更多</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
                 </div>
             </div>
         </article>
     </main>
+    <div class="all1">
+        <div class="all2 bb1 hide">
+            <div class="allhide">X</div>
+            第一塊內容
+        </div>
+        <div class="all2 bb2 hide">
+            <div class="allhide">X</div>
+            第2塊內容
+        </div>
+        <div class="all2 bb3 hide">
+            <div class="allhide">X</div>
+            第3塊內容
+        </div>
+        <div class="all2 bb4 hide">
+            <div class="allhide">X</div>
+            第4塊內容
+        </div>
+    </div>
     <!-- 網頁內容 end -->
     <footer>
 
@@ -611,7 +684,7 @@
         crossorigin="anonymous"></script>
     <!-- 網頁的JS -->
     <script src="JS/industry.js"></script>
-    <script> 
+    <script>
         $.ajax({
             url: '紡織產品.csv',
             dataType: 'text',
@@ -650,7 +723,7 @@
             table += '</table>';
             $('#online-store').append(table);//  $('寫入的位置').append(寫入的內容);
         }
-            </script>
+    </script>
 </body>
 
 </html>
