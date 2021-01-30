@@ -15,6 +15,7 @@ main {
 }
 #Internet-commerce .title-block {
   text-align: center;
+  text-align:justify;
 }
 #Internet-commerce .card-header {
   text-align: center;
@@ -68,7 +69,7 @@ a.collapsed::before {
   text-align: center;
 }
 .card-header img {
-  width: 148px;
+  width: 200px;
   height: 200px;
   margin: 0px 15px 0px 0px;
 }
