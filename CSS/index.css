@@ -18,10 +18,11 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 550px 100px 550px;
+  border-width: 0 50vw 100px 50vw;
   border-color: transparent transparent white transparent;
   position: absolute;
   bottom: 0px;
+  overflow: hidden;
 }
 .banner {
   width: 200px;
@@ -77,8 +78,30 @@
     transform: rotate(360deg);
   }
 }
-iframe {
+.block {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.block iframe {
+  width: calc(100% - 100px);
+  min-width: 475px;
+  height: calc(100% - 100px);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  box-shadow: rgb(0 0 0 / 50%) 0px -5px 5px inset,
+    rgb(0 0 0 / 50%) 0px 5px 5px inset;
+}
+.hide {
   display: none;
+}
+iframe {
+  width: 1000px;
+  height: auto;
 }
 /* animation-name: rrrrr;
 animation-duration: 2s;
