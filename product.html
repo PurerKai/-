@@ -343,6 +343,51 @@
         crossorigin="anonymous"></script>
     <!-- 網頁的JS -->
     <script src="JS/product.js"></script>
+    <script>
+        $.ajax({
+            url: '紡織產品.csv',
+            dataType: 'text',
+        }).done(successFunction);
+        var tagg=[]
+        function successFunction(data) {
+            var allRows = data.split(/\r?\n|\r/);
+            var table = '<table>';
+            for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+                if (singleRow === 0) {
+                    table += '<thead>';
+                    table += '<tr>';
+                } else {
+                    table += '<tr>';
+                }
+                var rowCells = allRows[singleRow].split(',');
+                tagg[singleRow]=rowCells
+                for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+                    if (singleRow === 0) {
+                        table += '<th>';
+                        table += rowCells[rowCell];
+                        table += '</th>';
+                    } else {
+                        table += '<td>';
+                        table += rowCells[rowCell];
+                        table += '</td>';
+                    }
+                }
+                if (singleRow === 0) {
+                    table += '</tr>';
+                    table += '</thead>';
+                    table += '<tbody>';
+                } else {
+                    table += '</tr>';
+                }
+            }
+            table += '</tbody>';
+            table += '</table>';
+            $('body').append(table);
+            console.log("kaikai")
+           console.log(tagg)
+            $('.product-back').append(tagg[11]);
+        }
+    </script>
 </body>
 
 </html>
