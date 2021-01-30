@@ -67,6 +67,11 @@ a.collapsed::before {
 #Internet-commerce .card-body {
   text-align: center;
 }
+.card-header img {
+  width: 148px;
+  height: 200px;
+  margin: 0px 15px 0px 0px;
+}
 /* #Internet-commerce .block {
   display: flex;
   flex-direction: row;
