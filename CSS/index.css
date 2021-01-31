@@ -1,28 +1,11 @@
+body {
+  background: linear-gradient(to top, #93ff93, white);
+  z-index: 1000;
+  height: 100vh;
+}
 .big-block {
   display: flex;
   justify-content: center;
-}
-.banner-top,
-.banner-bottom {
-  background-color: black;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.banner-bottom {
-  margin-top: 320px;
-  transform: rotate(180deg);
-}
-.tr3 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 50vw 100px 50vw;
-  border-color: transparent transparent white transparent;
-  position: absolute;
-  bottom: 0px;
-  overflow: hidden;
 }
 .banner {
   width: 200px;
@@ -40,6 +23,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.banner a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 .div1 {
   background-color: yellow;
@@ -66,50 +54,3 @@
   background-color: rgb(255, 255, 255);
   position: absolute;
 }
-.line {
-  width: 200px;
-  height: 10px;
-  background-color: black;
-  position: absolute;
-  transform: rotate(90deg);
-  margin-top: 480px;
-}
-@keyframes rrrrr {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.block {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-}
-.block iframe {
-  width: calc(100% - 100px);
-  min-width: 475px;
-  height: calc(100% - 100px);
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  box-shadow: rgb(0 0 0 / 50%) 0px -5px 5px inset,
-    rgb(0 0 0 / 50%) 0px 5px 5px inset;
-}
-.hide {
-  display: none;
-}
-iframe {
-  width: 1000px;
-  height: auto;
-}
-/* animation-name: rrrrr;
-animation-duration: 2s;
-animation-iteration-count: infinite; */
-/* animation-name: rrrrr;
-animation-duration: 2s;
-animation-iteration-count: infinite; */
