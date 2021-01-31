@@ -11,7 +11,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  background-image: url(../IMG/背景圖.PNG);
+  background-color: yellowgreen;
   background-size: cover;
   padding: 10px 0 20px 0;
 }
@@ -49,7 +49,7 @@ color:navy;
 }
 #Upstream .product-front,
 #Upstream .product-back {
-  background-color: sienna;
+  background-color:white;
   position: absolute;
   top: 0;
   left: 0;
