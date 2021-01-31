@@ -31,8 +31,6 @@
   margin: 5px 5px 5px 5px;
   position: relative;
   font-size: 26px;
-  
-  background-color:wheat;
 }
 .fac1{
   position: relative;
@@ -40,7 +38,7 @@
 }
 .fac1 img{
   width: 300px;
-  height: 200px;
+  height: 250px;
   position:relative;
   top: 5px;
   left: 10px;
