@@ -12,10 +12,13 @@ main {
 +++++++++++++++++++++++++ */
 #Internet-commerce .card {
   margin-bottom: 20px;
+  background-color: burlywood;
+  color: brown;
 }
 #Internet-commerce .title-block {
   text-align: center;
   text-align:justify;
+ 
 }
 #Internet-commerce .card-header {
   text-align: center;
@@ -69,8 +72,8 @@ a.collapsed::before {
   text-align: center;
 }
 .card-header img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 150px;
   margin: 0px 15px 0px 0px;
 }
 /* #Internet-commerce .block {
