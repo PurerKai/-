@@ -1,0 +1,16 @@
+$.ajax({
+            url: 'test.csv',
+            dataType: 'text',
+        }).done(successFunction);
+        var tagg=[]
+        function successFunction(data) {
+            var allRows = data.split(/\r?\n|\r/);
+            for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+                tagg[singleRow] = allRows[singleRow].split(',');
+            }
+
+
+            
+           console.log(tagg)
+            $('.product-back').append(tagg[0]);
+        }
