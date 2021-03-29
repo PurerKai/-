@@ -1,11 +1,11 @@
-#myTab .active {
-  color: red;
-}
 body {
   background-color: white;
 }
 main {
   background-color: white;
+}
+#myTab .active {
+  color: red;
 }
 /* +++++++++++++++++++++++++ 
     TODO:網路電商 開始
@@ -17,7 +17,7 @@ main {
 }
 #Internet-commerce .title-block {
   text-align: center;
-  text-align:justify;
+  text-align: justify;
 }
 #Internet-commerce .card-header {
   text-align: center;
@@ -177,17 +177,17 @@ footer {
   align-items: center;
   justify-content: center;
 }
-table { 
-  border:1px solid #000; 
-  font-family: 微軟正黑體; 
-  font-size:16px; 
-  width:200px;
-  border:1px solid #000;
-  text-align:center;
-  border-collapse:collapse;
+table {
+  border: 1px solid #000;
+  font-family: 微軟正黑體;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  border-collapse: collapse;
 }
-.baga{
+.baga {
   width: 1194px;
-height: 432px;
-overflow: auto;
+  height: 432px;
+  overflow: auto;
 }
