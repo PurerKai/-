@@ -1,0 +1,75 @@
+ <!-- <dl>
+                                <dt>可以做出的成品</dt>
+                                <dd> <b>休閒服飾</b> <br>
+                                    <img src="IMG/休閒服.webp">
+                                    <img src="IMG/休閒服1.webp" alt="">
+                                    <div>
+                                        <p>特色:PET 吸濕快乾型砂
+                                            <br>類別:COOLON系列吸濕排汗 功能性紗 變化紗 麻調紗
+                                            <br>品名:COOLON　P 二合一絲 A 漂白+UV-Cut 竹節紗 白紋紗 冬蟲紗 三色麻調紗
+                                        </p>
+                                    </div>
+    
+    
+                            </dl>
+                            <dt>針織類</dt>
+                            <dd> <b>毛衣 線衫 </b> <br>
+                                <img src="IMG/線衫.jpg" alt="">
+                                <img src="IMG/線衫2.jpg" alt="">
+                                <img src="IMG/線衫3.jpg" alt="">
+                                <div>
+                                    <p>特色:花式紗外觀 長短纖複合 毛感多色調
+                                        <br>類別:花式紗
+                                        <br>品名:珍珠紗 Chenille Yarn 圈圈紗
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt>布料類</dt>
+                            <dd> <b>傢飾布 窗簾 帳篷布</b> <br>
+                                <img src="IMG/家事不.jpg" alt="">
+                                <img src="IMG/家事不2.jpg" alt="">
+                                <img src="IMG/帳篷布1.jpg" alt="">
+                                <img src="IMG/帳篷布2.jpg" alt="">
+                                <img src="IMG/窗簾1.jpg" alt="">
+                                <div>
+                                    <p>特色:難燃PETLOI > 31 抗紫外線及難燃雙功能
+                                        <br>類別:功能性紗
+                                        <br>品名:聚酯難燃紗FD、SD、CD、BK 二合一絲 B UV-CUT 紗
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt>套裝類</dt>
+                            <dd> <b>高級襯衫</b> <br>
+                                <img src="/IMG/高級襯衫3.jpg" alt="">
+                                <img src="/IMG/高級襯衫2.jpg" alt="">
+                                <img src="/IMG/高級襯衫1.jfif" alt="">
+                                <div>
+                                    <p>特色:純棉細支紗
+                                        <br>類別:特殊短纖紗
+                                        <br>品名:高支短纖紗
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt>外套類</dt>
+                            <dd> <b>夾克</b> <br>
+                                <img src="/IMG/夾克.jpg" alt="">
+                                <img src="/IMG/夾克2.png" alt="">
+                                <img src="/IMG/價克1.jpg" alt="">
+                                <div>
+                                    <p>特色:吸濕排汗+抗UV雙效 抗紫外線及難燃雙功能
+                                        <br>類別:功能性紗
+                                        <br>品名:二合一絲 A 二合一絲 B
+                                    </p>
+                                </div>
+                            </dd>
+                            <dt>少見類</dt>
+                            <dd> <b>洋傘</b> <br>
+                                <img src="/IMG/洋傘1.jpg" alt="">
+                                <img src="/IMG/洋傘2.jfif" alt="">
+                                <div>
+                                    <p>特色:抗UV　UPF > 50
+                                        <br>類別:功能性紗
+                                        <br>品名:UV-CUT 紗
+                                    </p>
+                                </div>
+                            </dd> -->

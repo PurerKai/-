@@ -1,0 +1,68 @@
+<div class="all1">
+        <div class="all2 bb1 hide">
+            <div class="allhide">X</div>
+            第一塊內容
+        </div>
+        <div class="all2 bb2 hide">
+            <div class="allhide">X</div>
+            第2塊內容
+        </div>
+        <div class="all2 bb3 hide">
+            <div class="allhide">X</div>
+            第3塊內容
+        </div>
+        <div class="all2 bb4 hide">
+            <div class="allhide">X</div>
+            第4塊內容
+        </div>
+    </div>
+          <!-- TODO:XXXX -->
+                    <article id="newtab" class="tab-pane fade">
+                        <section class="row block2">
+                            <div class="col-1"></div>
+                            <div class="col-4 title-block">
+                                <h1>XXXX</h1>
+                                <p>標題內文</p>
+                            </div>
+                            <div class="col-6">
+                                <div><img src="/IMG/108109.PNG" alt=""></div>
+                            </div>
+                            <div class="col-1"></div>
+                        </section>
+                        <section class="row block3">
+                            <div class="block3-in">
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn01">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn02">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn03">查看更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-3 card">
+                                    <img src="img/Amazon.jpg" alt="">
+                                    <div>
+                                        <h2>小標題</h2>
+                                        <p>小介紹</p>
+                                        <button class="btn04">查看更多</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
