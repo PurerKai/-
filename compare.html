@@ -12,11 +12,43 @@
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
     <!-- 網頁的CSS -->
     <link rel="stylesheet" href="CSS/compare.css">
+    <link rel="stylesheet" href="CSS/navsite.css">
 </head>
 
 <body>
+    <!--TODO:網站導覽列 start -->
+    <header class="header_area">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg navbar-color navbar-bg">
+                <a class="navbar-brand" href="index.html"><img src="#" style="width: 50px; height: 50px;" alt="">
+                    &nbsp線上紡織</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-5">
+                        <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">紡織產業</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Industry.html">網路電商</a></li>
+                        <li class="nav-item"><a class="nav-link" href="retail.html">零售市場</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="compare.html">產商比較</a></li>
+                        <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">行銷模式</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="retail.html?">零售市場</a>
+                                </div>
+                            </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 網站導覽列 end -->
     <!-- TODO:線上商店 -->
-    <div id="online-store" class="tab-pane">
+    <div id="online-store">
 
     </div>
     <!-- Jquery 函式庫 -->
