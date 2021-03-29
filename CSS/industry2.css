@@ -4,6 +4,9 @@ body {
 main {
   background-color: white;
 }
+#myTab .active {
+  color: red;
+}
 /* +++++++++++++++++++++++++ 
     TODO:網路電商 開始
 +++++++++++++++++++++++++ */
@@ -72,6 +75,35 @@ a.collapsed::before {
   height: 150px;
   margin: 0px 15px 0px 0px;
 }
+/* #Internet-commerce .block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(126, 177, 245);
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+}
+.card-text {
+  opacity: 0;
+  transform: translateX(-400px);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.block:hover .card-text {
+  display: block;
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+#Internet-commerce img {
+  width: 300px;
+  height: 250px;
+  margin: 0px 15px 0px 0px;
+}
+.header_area1 {
+  background-color: #f8f9fa;
+} */
 /* +++++++++++++++++++++++++ 
     網路電商 結束
 +++++++++++++++++++++++++ */

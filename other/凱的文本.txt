@@ -65,4 +65,61 @@
                                 </div>
                             </div>
                         </section>
-                    </article>
+$(".btn01").click(function () {
+    $('.bb1').removeClass('hide');
+    $('.bb2').addClass('hide');
+    $('.bb3').addClass('hide');
+    $('.bb4').addClass('hide');
+})
+$(".btn02").click(function () {
+    $('.bb2').removeClass('hide');
+    $('.bb1').addClass('hide');
+    $('.bb3').addClass('hide');
+    $('.bb4').addClass('hide');
+})
+$(".btn03").click(function () {
+    $('.bb3').removeClass('hide');
+    $('.bb1').addClass('hide');
+    $('.bb2').addClass('hide');
+    $('.bb4').addClass('hide');
+})
+$(".btn04").click(function () {
+    $('.bb4').removeClass('hide');
+    $('.bb2').addClass('hide');
+    $('.bb3').addClass('hide');
+    $('.bb1').addClass('hide');
+})
+$(".allhide").click(function () {
+    $('.bb1').addClass('hide');
+    $('.bb2').addClass('hide');
+    $('.bb3').addClass('hide');
+    $('.bb4').addClass('hide');
+})
+    <!-- 頁面導覽列 start -->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent2">
+                        <div id="page-menu" class="page-menu navbar-expand-lg">
+                            <nav id="tabNav" class="navbar page-nav nav-look ">
+                                <ul id="myTab" class="nav tab-menu">
+                                    <li>
+                                        <a href="#Internet-commerce" data-toggle="tab" class="nav-item nav-link">
+                                            網路電商<p>Internet-commerce</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 頁面導覽列 end -->
