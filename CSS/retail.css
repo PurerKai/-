@@ -1,176 +1,169 @@
-#myTab .active {
-  color: red;
-}
 /* +++++++++++++++++++++++++ 
     TODO:零售市場 開始
 +++++++++++++++++++++++++ */
 #Internet-commerce .title-block {
-  text-align: center;
-  text-align:justify;
-}
-#retail1 .market-product1{
-  position: relative ;
-  margin: 0 0 0 0;
-  background-size: auto;
+    text-align: center;
+    text-align:justify;
+  }
+  #retail1 .market-product1{
+    position: relative ;
+    margin: 0 0 0 0;
+    background-size: auto;
+    
+  }
+  #retail1 .card-body{
+    width: 370px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .card-body img{
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    top: 68px;
+    right: 20px;
+  }
+  #retail1 .text1{
+    font-size: 15px;
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    font-size: 26px;
+  }
+  .fac1{
+    position: relative;
+    font-size: 20px;
+  }
+  .fac1 img{
+    width: 300px;
+    height: 250px;
+    position:relative;
+    top: 5px;
+    left: 10px;
+  }
+  .fac2{
+    position: relative;
+  }
+  .fac2 img{
+    width: 300px;
+    height: 250px;
+    position: relative;
+  }
+  .fac3{
+    position: relative;
+  }
+  .fac3 img{
+    width: 300px;
+    height: 250px;
+    position: relative;
+  }
+  .fac4{
+    position: relative;
+  }
+  .fac4 img{
+    width: 300px;
+    height: 250px;
+    position: relative;
+  }
+  #retail1 .market-product2{
+    position: relative ;
+    margin: 0 0 0 0;
+    background-size: auto;
+    text-align: left;
+  }
   
-}
-#retail1 .card-body{
-  width: 370px;
-  text-align: left;
-  word-wrap: break-word;
-}
-.card-body img{
-  width: 250px;
-  height: 210px;
-  position: absolute;
-  top: 68px;
-  right: 20px;
-}
-#retail1 .text1{
-  font-size: 15px;
-  margin: 5px 5px 5px 5px;
-  position: relative;
-  font-size: 26px;
-}
-.fac1{
-  position: relative;
-  font-size: 20px;
-}
-.fac1 img{
-  width: 300px;
-  height: 250px;
-  position:relative;
-  top: 5px;
-  left: 10px;
-}
-.fac2{
-  position: relative;
-}
-.fac2 img{
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
-.fac3{
-  position: relative;
-}
-.fac3 img{
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
-.fac4{
-  position: relative;
-}
-.fac4 img{
-  width: 300px;
-  height: 250px;
-  position: relative;
-}
-#retail1 .market-product2{
-  position: relative ;
-  margin: 0 0 0 0;
-  background-size: auto;
-  text-align: left;
-}
-
-#retail1 .introduce2{
-  width: 370px;
-  text-align: left;
-  word-wrap: break-word;
-}
-.market-product2 img{
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-#retail1 .market-product3{
-  position: relative;
-  background-size: auto;
-  font-size: 20px;
-}
-.odb-img img{
-  width: 200px;
-  height: auto;
-  margin: 70px;
-}  
-.market-product3 .oem{
-  word-wrap: break-word;
-}
-.market-product3 .odm{
-  word-wrap: break-word;
-}
-.market-product3 .obm{
-  word-wrap: break-word;
-}
-#retail1 .market-product4{
-  position: relative;
-  font-size: 20px;
-}
-.plan{
-  text-align: left;
-}
-#retail2 .card {
-  margin-bottom: 20px;
-}
-#retail2 .title-block {
-  text-align: center;
-}
-#retail2 .card-header {
-  text-align: center;
-  padding: 0;
-}
-#retail2 .card-footer {
-  text-align: center;
-  padding: 0;
-}
-#retail2 .card-header .card-link {
-  font-weight: 600;
-  letter-spacing: 0.125rem;
-  text-align: center;
-  display: block;
-  padding: 10px 0px 10px 0px;
-}
-#retail2 .card-footer .card-link {
-  text-align: center;
-  display: block;
-  padding: 0px;
-}
-.col-12 img{
-  width: 550px;
-  position: relative;
-  left: 280px;
-}
-a.card-link::before {
-  content: "\f106";
-  width: 12px;
-  font-family: "Font Awesome 5 Free" !important;
-  font-weight: 900;
-  margin-right: 1rem;
-}
-a.collapsed::before {
-  content: "\f103";
-  width: 12px;
-  font-family: "Font Awesome 5 Free" !important;
-  font-weight: 900;
-  margin-right: 1rem;
-}
-#Internet-commerce .card-body {
-  text-align: center;
-}
-#retail3 .it-make{
-  position: relative;
-}
-.it-make img{
-  position: relative;
-  width: 400px;
-  height: 300px;
-}
-#retail3 .it-market{
-  position: relative;
-}
-/* +++++++++++++++++++++++++ 
-    零售市場 結束
-+++++++++++++++++++++++++ */
+  #retail1 .introduce2{
+    width: 370px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .market-product2 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #retail1 .market-product3{
+    position: relative;
+    background-size: auto;
+    font-size: 20px;
+  }
+  .market-product3 .oem{
+    word-wrap: break-word;
+  }
+  .market-product3 .odm{
+    word-wrap: break-word;
+  }
+  .market-product3 .obm{
+    word-wrap: break-word;
+  }
+  #retail1 .market-product4{
+    position: relative;
+    font-size: 20px;
+  }
+  .plan{
+    text-align: left;
+  }
+  #retail2 .card {
+    margin-bottom: 20px;
+  }
+  #retail2 .title-block {
+    text-align: center;
+  }
+  #retail2 .card-header {
+    text-align: center;
+    padding: 0;
+  }
+  #retail2 .card-footer {
+    text-align: center;
+    padding: 0;
+  }
+  #retail2 .card-header .card-link {
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    text-align: center;
+    display: block;
+    padding: 10px 0px 10px 0px;
+  }
+  #retail2 .card-footer .card-link {
+    text-align: center;
+    display: block;
+    padding: 0px;
+  }
+  .col-12 img{
+    width: 550px;
+    position: relative;
+    left: 280px;
+  }
+  a.card-link::before {
+    content: "\f106";
+    width: 12px;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    margin-right: 1rem;
+  }
+  a.collapsed::before {
+    content: "\f103";
+    width: 12px;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    margin-right: 1rem;
+  }
+  #Internet-commerce .card-body {
+    text-align: center;
+  }
+  #retail3 .it-make{
+    position: relative;
+  }
+  .it-make img{
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  #retail3 .it-market{
+    position: relative;
+  }
+  /* +++++++++++++++++++++++++ 
+      零售市場 結束
+  +++++++++++++++++++++++++ */
+  
