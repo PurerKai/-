@@ -1,56 +1,7 @@
-body {
-  background: linear-gradient(to top, #93ff93, white);
-  z-index: 1000;
+body{
+  width: 100vw;
   height: 100vh;
-}
-.big-block {
-  display: flex;
-  justify-content: center;
-}
-.banner {
-  width: 200px;
-  height: 200px;
-  flex-wrap: wrap;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 240px;
-}
-.banner div {
-  width: 100px;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.banner a {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-.div1 {
-  background-color: yellow;
-  transform: translateX(-15px) translateY(-15px);
-  font-weight: 1000;
-}
-.div2 {
-  background-color: rgb(255, 102, 0);
-  transform: translateX(25px) translateY(-25px);  
-  font-weight: 1000;
-}
-.div3 {
-  background-color: rgb(18, 2, 243);
-  transform: translateX(-25px) translateY(25px);
-  font-weight: 1000;
-}
-.div4 {
-  background-color: rgb(6, 207, 33);
-  transform: translateX(15px) translateY(15px);
-  font-weight: 1000;
-}
-.div5 {
-  border-radius: 50%;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
 }
