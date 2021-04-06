@@ -6,8 +6,8 @@ body {
 +++++++++++++++++++++++++ */
 #Internet-commerce .card {
   margin-bottom: 20px;
-  background-color: burlywood;
-  color: brown;
+  background-color: rgba(53, 171, 192, 0.171);
+  color: rgb(241, 143, 16);
 }
 #Internet-commerce .card-header {
   text-align: center;
@@ -134,7 +134,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-table {
+.class1 table{
   border: 1px solid #000;
   font-family: 微軟正黑體;
   font-size: 16px;
@@ -143,8 +143,14 @@ table {
   text-align: center;
   border-collapse: collapse;
 }
-th{
+.class1 th{
   width: 300px;
+}
+.class2 th{
+  width: 300px;
+}
+.class2 td{
+  height: 75px;
 }
 .baga {
   width: 1194px;
