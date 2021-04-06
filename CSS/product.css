@@ -13,7 +13,8 @@
   font-size:45px;
 }
 .A2{
-  color:tomato;
+  font-weight:bold; 
+  color:rgb(11, 36, 13);
   font-size: 0.6cm;
   margin-top: 20px;
 }
@@ -21,3 +22,14 @@
   font-size:30px;
   margin-top:15px;
 }
+.A4{
+  color:tomato;
+  font-size: 60px ;
+  font-style:normal;
+  text-align: center;
+}
+.A5{background-color:teal;
+}
+.A6{
+ background-color:chocolate;
+}teal
