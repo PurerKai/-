@@ -89,22 +89,33 @@ table {
   font-size: 60px ;
   font-style:normal;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+  
 }
 .A5{background-color:teal;
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 .A6{
  background-color:chocolate;
+ text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 .A7{
-  background-color:slategray;
+  background-color:rgb(183, 204, 226);
   text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black
 }
 .A8{
   background-color:rgb(177, 84, 84);
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 .A9{
   background-color:rgb(35, 172, 69);
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 .A10{
   font-size:25px;
