@@ -1,21 +1,21 @@
 <div class="all1">
-        <div class="all2 bb1 hide">
-            <div class="allhide">X</div>
-            第一塊內容
-        </div>
-        <div class="all2 bb2 hide">
-            <div class="allhide">X</div>
-            第2塊內容
-        </div>
-        <div class="all2 bb3 hide">
-            <div class="allhide">X</div>
-            第3塊內容
-        </div>
-        <div class="all2 bb4 hide">
-            <div class="allhide">X</div>
-            第4塊內容
-        </div>
+    <div class="all2 bb1 hide">
+        <div class="allhide">X</div>
+        第一塊內容
     </div>
+    <div class="all2 bb2 hide">
+        <div class="allhide">X</div>
+        第2塊內容
+    </div>
+    <div class="all2 bb3 hide">
+        <div class="allhide">X</div>
+        第3塊內容
+    </div>
+    <div class="all2 bb4 hide">
+        <div class="allhide">X</div>
+        第4塊內容
+    </div>
+</div>
           <!-- TODO:XXXX -->
                     <article id="newtab" class="tab-pane fade">
                         <section class="row block2">
@@ -95,31 +95,24 @@ $(".allhide").click(function () {
     $('.bb3').addClass('hide');
     $('.bb4').addClass('hide');
 })
-    <!-- 頁面導覽列 start -->
-    <header class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent2">
-                        <div id="page-menu" class="page-menu navbar-expand-lg">
-                            <nav id="tabNav" class="navbar page-nav nav-look ">
-                                <ul id="myTab" class="nav tab-menu">
-                                    <li>
-                                        <a href="#Internet-commerce" data-toggle="tab" class="nav-item nav-link">
-                                            網路電商<p>Internet-commerce</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- 頁面導覽列 end -->
+
+第二種
+$(".btn01").click(function () {
+    $('.all2').addClass('hide');
+    $('.bb1').removeClass('hide');
+})
+$(".btn02").click(function () {
+    $('.all2').addClass('hide');
+    $('.bb2').removeClass('hide');
+})
+$(".btn03").click(function () {
+    $('.all2').addClass('hide');
+    $('.bb3').removeClass('hide');
+})
+$(".btn04").click(function () {
+    $('.all2').addClass('hide');
+    $('.bb4').removeClass('hide');
+})
+$(".allhide").click(function () {
+    $('.all2').addClass('hide');
+})
